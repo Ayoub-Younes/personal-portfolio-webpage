@@ -48,6 +48,31 @@ let projects = [
         img:"imgs/a-25--5-clock.png",
         link:"https://ayoub-younes.github.io/a-25--5-clock"
     },
+    {
+        projectName:"United States GDP",
+        img:"imgs/united-states-gdp.png",
+        link:"https://ayoub-younes.github.io/united-states-gdp"
+    },
+    {
+        projectName:"Doping in Professional Bicycle Racing",
+        img:"imgs/doping-in-professional-bicycle-racing.png",
+        link:"https://ayoub-younes.github.io/doping-in-professional-bicycle-racing"
+    },
+    {
+        projectName:"Monthly Global Land-Surface Temperature",
+        img:"imgs/monthly-global-land-surface-temperature.png",
+        link:"https://ayoub-younes.github.io/monthly-global-land-surface-temperature"
+    },
+    {
+        projectName:"United States Educational Attainment",
+        img:"imgs/united-states-educational-attainment.png",
+        link:"https://ayoub-younes.github.io/united-states-educational-attainment"
+    },
+    {
+        projectName:"Video Game Sales",
+        img:"imgs/video-game-sales.png",
+        link:"https://ayoub-younes.github.io/video-game-sales"
+    },
 ]
 
 const displayNext = () => {
