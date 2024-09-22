@@ -73,6 +73,31 @@ let projects = [
         img:"imgs/video-game-sales.png",
         link:"https://ayoub-younes.github.io/video-game-sales"
     },
+    {
+        projectName:"Timestamp",
+        img:"imgs/timestamp.png",
+        link:"https://ayoub-younes-timestamp.glitch.me"
+    },
+    {
+        projectName:"Request Header Parser",
+        img:"imgs/headerparser.png",
+        link:"https://ayoub-younes-headerparser.glitch.me"
+    },
+    {
+        projectName:"URL Shortener",
+        img:"imgs/url-shortener.png",
+        link:"https://ayoub-younes-url-shortener.glitch.me"
+    },
+    {
+        projectName:"Exercise Tracker",
+        img:"imgs/exercise-tracker.png",
+        link:"https://ayoub-younes-exercise-tracker.glitch.me/"
+    },
+    {
+        projectName:"File Metadata",
+        img:"imgs/file-metadata.png",
+        link:"https://ayoub-younes-file-metadata.glitch.me/"
+    },
 ]
 
 const displayNext = () => {
