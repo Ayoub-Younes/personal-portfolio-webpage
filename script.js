@@ -111,31 +111,35 @@ const displayNext = () => {
     }
     let newProjetcs = projects.slice(num, num + 6)
     newProjetcs.forEach((project) => {
+
         wrapper.innerHTML += `
-            <div class="project-wrapper" style="display: none">
-                <img class="new-image" src=${project.img}>
+            <div class="project-wrapper fade-in" style="display: none">
+                <img class="image" src=${project.img}>
                 <p class="project-tile"><a href=${project.link} target="_blank">${project.projectName}</a></p>  
             </div>
         `
     })
     num += 6 
     imageLoad()
-    console.log(num)
-
 }
 
 next.addEventListener("click", displayNext)
 
 const imageLoad = () => {
     const porjectsList =  Array.from(document.getElementsByClassName('project-wrapper'))
-    const images = Array.from(document.getElementsByClassName("new-image"))
+    const images = Array.from(document.getElementsByClassName("image"))
     let imagesLoaded = 0;
     
     // Function to show content after all images are loaded
     function showContent() {
-        images.forEach(img => img.classList.remove("new-image"))
+        images.forEach(img => img.classList.remove("image"))
         porjectsList.forEach(div  => div.style.display = "flex")
     }
+
+    // Remove the fade-in class after animation completes
+    setTimeout(() => {
+    porjectsList.forEach(div => div.classList.remove("fade-in"));
+    }, 500); // Duration of the animation
 
     // Function to check if all images are loaded
     function checkAllImagesLoaded() {
