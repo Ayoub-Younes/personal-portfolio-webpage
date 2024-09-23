@@ -100,22 +100,69 @@ let projects = [
     },
 ]
 
+
+
 const displayNext = () => {
-    projects.slice(num, num+6).forEach((project) => {
+
+    if (num >= projects.length) {
+        next.style.cursor ="not-allowed"
+        console.log("No more projects to display.");
+        return;
+    }
+    let newProjetcs = projects.slice(num, num + 6)
+    newProjetcs.forEach((project) => {
         wrapper.innerHTML += `
-            <div class="project-wrapper">
-            <img src=${project.img}>
-            <p class="project-tile"><a href=${project.link} target="_blank">${project.projectName}</a></p>  
-        </div>
+            <div class="project-wrapper" style="display: none">
+                <img class="new-image" src=${project.img}>
+                <p class="project-tile"><a href=${project.link} target="_blank">${project.projectName}</a></p>  
+            </div>
         `
     })
     num += 6 
-    if(num >= projects.length){
-        next.style.cursor ="not-allowed"
-    }
+    imageLoad()
+    console.log(num)
+
 }
-console.log(num)
+
 next.addEventListener("click", displayNext)
 
+const imageLoad = () => {
+    const porjectsList =  Array.from(document.getElementsByClassName('project-wrapper'))
+    const images = Array.from(document.getElementsByClassName("new-image"))
+    let imagesLoaded = 0;
+    
+    // Function to show content after all images are loaded
+    function showContent() {
+        images.forEach(img => img.classList.remove("new-image"))
+        porjectsList.forEach(div  => div.style.display = "flex")
+    }
+
+    // Function to check if all images are loaded
+    function checkAllImagesLoaded() {
+        if (imagesLoaded === images.length) {
+            showContent();
+        }
+    }
+
+    // Check each image if it's already cached
+    images.forEach(img => {
+        if (img.complete) {
+            imagesLoaded++;
+            checkAllImagesLoaded();
+        } else {
+            // If the image is not cached, wait for the load event
+            img.onload = function() {
+            imagesLoaded++;
+            checkAllImagesLoaded();
+            };
+        }
+        });
+    
+        // Fallback in case the images take too long or fail to load
+        setTimeout(function() {
+        showContent();  // Show content after the timeout, regardless of images loaded
+        }, 3000);
+
+}
 
 

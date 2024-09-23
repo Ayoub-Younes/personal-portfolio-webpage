@@ -96,7 +96,7 @@ header {
 
 
 #projects h3 {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Roboto";
   font-size: 2em;
   font-weight: bold;
   text-decoration:underline;
@@ -121,7 +121,6 @@ header {
 .project-wrapper {
   width: 27%;
   min-width: 330px ;
-  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   margin: 1em;
