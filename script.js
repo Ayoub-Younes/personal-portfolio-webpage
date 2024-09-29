@@ -4,6 +4,11 @@ const wrapper = document.querySelector(".projects-wrapper")
 let num = 0;
 let projects = [
     {
+        projectName:"Multiplayer Pokeball Collection Game",
+        img:"imgs/real-time-multiplayer-game.webp",
+        link:"https://ayoub-younes-real-time-multiplayer-game.glitch.me/"
+    },
+    {
         projectName:"Roman Numeral Converter",
         img:"imgs/roman-numeral-converter.webp",
         link:"https://ayoub-younes.github.io/a-roman-numeral-converter"
@@ -97,6 +102,16 @@ let projects = [
         projectName:"File Metadata",
         img:"imgs/file-metadata.webp",
         link:"https://ayoub-younes-file-metadata.glitch.me/"
+    },
+      {
+        projectName:"Nasdaq Stock Price Checker",
+        img:"imgs/stock-price-checkerwebp",
+        link:"https://ayoub-younes-stock-price-checker.glitch.me/"
+    },
+      {
+        projectName:"Anonymous Message Board",
+        img:"imgs/message-board.webp",
+        link:"https://ayoub-younes-message-board.glitch.me/"
     },
         {
         projectName:"Password Cracker",
