@@ -98,6 +98,92 @@ let projects = [
         img:"imgs/file-metadata.webp",
         link:"https://ayoub-younes-file-metadata.glitch.me/"
     },
+        {
+        projectName:"Password Cracker",
+        img:"imgs/password-cracker.webp",
+        link:"https://colab.research.google.com/drive/1wAJDYhxzgLH5fMm0ijn0aYVMVNT1guny"
+    },
+        {
+        projectName:"Port Scanner",
+        img:"imgs/port-scanner.webp",
+        link:"https://colab.research.google.com/drive/1BytXOaktXpjCY35-9vmaRxztw3LH_M8R"
+    },
+        {
+        projectName:"Arithmetic Arranger",
+        img:"imgs/arithmetic-arranger.webp",
+        link:"https://colab.research.google.com/drive/195QPTwW8WtnR-CHS2rk2zKbxLbAPk5n2"
+    },
+        {
+        projectName:"Time Calculator",
+        img:"imgs/time-calculator.webp",
+        link:"https://colab.research.google.com/drive/17jHVFN2gNNlAM2OIGkxS-8HLkYTkayTt"
+    },
+        {
+        projectName:"Budget App",
+        img:"imgs/budget-app.webp",
+        link:"https://colab.research.google.com/drive/12MK4FCcTwMbvE4OtiBqHShlBW528-stg"
+    },
+        {
+        projectName:"Polygon Area Calculator",
+        img:"imgs/polygon-area-calculator.webp",
+        link:"https://colab.research.google.com/drive/1rjCjMen1fQsnEQDCzHRub7zGndNG1luO"
+    },
+        {
+        projectName:"Probability Calculator",
+        img:"imgs/probability-calculator.webp",
+        link:"https://colab.research.google.com/drive/1LIP-xQDXh9Ke-NQpqAhu4n-4DpH7-VkQ"
+    },
+        {
+        projectName:"Demographic Data Analyzer",
+        img:"imgs/demographic-data-analyzer.webp",
+        link:"https://colab.research.google.com/drive/1M8Z1g5qAqdeit5xYGgYt2IKrkv2Hi3xz"
+    },
+        {
+        projectName:"Mean Variance Standard Deviation Calculator",
+        img:"imgs/mean-variance-standard-deviation-calculator.webp",
+        link:"https://colab.research.google.com/drive/1R0XfjQb1ovCXPTDk2mYvkdx0KSuRSQvh"
+    },
+        {
+        projectName:"Medical Data Visualizer",
+        img:"imgs/medical-data-visualizer.webp",
+        link:"https://colab.research.google.com/drive/1WEs9YTfJGUBvHl1WwY3R0bO7eR8jaNlh"
+    },
+        {
+        projectName:"Page View Time Series Visualizer",
+        img:"imgs/page-view-time-series-visualizer.webp",
+        link:"https://colab.research.google.com/drive/1FzFdrJJUKTXCRl3j-MwTaz4N4xdDFKLS"
+    },
+        {
+        projectName:"Sea Level Predictor",
+        img:"imgs/sea-level-predictor.webp",
+        link:"https://colab.research.google.com/drive/1EIP9C8mbKpFkazX3msY7bKwN8j8Pa3qB"
+    },
+        {
+        projectName:"Rock Paper Scissors",
+        img:"imgs/rock-paper-sissors.webp",
+        link:"https://colab.research.google.com/drive/1S9VGwWOc2rtm2dGt16nJr4_YyFq1Dsm1"
+    },
+        {
+        projectName:"Linear Regression Health Costs Calculator",
+        img:"imgs/linear-regression-health-costs-calculator.webp",
+        link:"https://colab.research.google.com/drive/111p_iIm0fi9TCKcb7_M_8vk453tewDXn"
+    },
+        {
+        projectName:"Book Recommendation Engine",
+        img:"imgs/book-recommendation-engine.webp",
+        link:"https://colab.research.google.com/drive/19DBBrDH7GCTtCA7ASiLD1mDje0EcTDjT"
+    },
+            {
+        projectName:"Cat and Dog Image Classifier",
+        img:"imgs/cat-and-dog-image-classifier.webp",
+        link:"https://colab.research.google.com/drive/18shziM3abzzNrJBwKFJ6Mnr71Ve8eCO7"
+    },
+            {
+        projectName:"Neural Network SMS Text Classifier",
+        img:"imgs/neural-network-sms-text-classifier.webp",
+        link:"https://colab.research.google.com/drive/17sE3imQHj-BusLQ3YQ4c3lfnosxjZC43"
+    },
+    
 ]
 
 
