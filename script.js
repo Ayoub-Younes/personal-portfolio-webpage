@@ -105,7 +105,7 @@ let projects = [
     },
       {
         projectName:"Nasdaq Stock Price Checker",
-        img:"imgs/stock-price-checkerwebp",
+        img:"imgs/stock-price-checker.webp",
         link:"https://ayoub-younes-stock-price-checker.glitch.me/"
     },
       {
